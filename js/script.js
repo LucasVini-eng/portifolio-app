@@ -60,9 +60,9 @@ document.addEventListener('DOMContentLoaded', () => {
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
             desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
-            tech: ["Bootstrap", "JavaScript", "Power BI Embedded", "ETL"],
-            codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
-            demoUrl: "https://lucasvini-eng.github.io/lveProject-001-DashboardManager-PowerBI/"},
+            tech: ["Em definição"],
+            codeUrl: "https://lucasvini-eng.github.io/project-announcement-2/",
+            demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
         {
             id: 5,
             title: "Gestão de Dashboards (Power BI)",
