@@ -55,11 +55,11 @@ document.addEventListener('DOMContentLoaded', () => {
             demoUrl: "https://www.linkedin.com/posts/lucas-vinicius-ds_projeto-gerenciamento-de-tarefas-por-api-ugcPost-7398842285439758336-AbWo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQ9xY4Bq9hbYyIilymoH1vo69oq8gsEDaE"},
         {
             id: 4,
-            title: "Sistema de Notas Fiscais",
+            title: "Sistema NTS-e (BI)",
             category: "dados",
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
-            desc: "Orquestração de visões analíticas interativas integradas a uma interface web personalizada, acelerando decisões baseadas em indicadores operacionais.",
+            desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
             tech: ["Bootstrap", "JavaScript", "Power BI Embedded", "ETL"],
             codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
             demoUrl: "https://lucasvini-eng.github.io/lveProject-001-DashboardManager-PowerBI/"},
