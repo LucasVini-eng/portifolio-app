@@ -211,7 +211,6 @@ document.getElementById('contact-form').addEventListener('submit', async functio
 
     if (!response.ok) throw new Error('Falha no envio');
 
-    // Mostra o toast de sucesso
     toastMessage.textContent = 'Mensagem enviada com sucesso!';
     toast.classList.add('show');
 
@@ -226,7 +225,6 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     submitBtn.disabled = false;
     submitBtn.innerHTML = originalBtnHtml;
 
-    // Esconde o toast depois de alguns segundos
     setTimeout(() => toast.classList.remove('show'), 4000);
   }
 });
@@ -253,7 +251,6 @@ document.getElementById('contact-form').addEventListener('submit', async functio
     submitBtn.innerHTML = 'Enviando... <i class="ph ph-spinner"></i>';
 
     try {
-        // Troque SEU_EMAIL@dominio.com pelo seu e-mail real
         const response = await fetch('https://formsubmit.co/ajax/vinidev.eng@gmail.com', {
             method: 'POST',
             headers: {
