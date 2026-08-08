@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             id: 4,
             title: "Sistema NTS-e (BI)",
-            category: "dados",
+            category: "software",
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
             desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
