@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
             desc: "Robô de automação (RPA) para monitoramento contínuo de cotações, automatizando a coleta, processamento e disponibilização de informações estratégicas",
-            tech: ["Python", "Selenium", "Google Cloud", "Google Sheets API", "Web Scraping", "EC2"],
+            tech: ["Python", "Selenium", "Google Cloud", "Google Sheets API", "Web Scraping", "AWS EC2"],
             codeUrl: "https://lucasvini-eng.github.io/project-announcement-1/",
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-1/"},
         {
