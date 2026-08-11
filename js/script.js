@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
             desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
-            tech: ["Em definição"],
+            tech: ["Python", "Django", ],
             codeUrl: "https://lucasvini-eng.github.io/project-announcement-2/",
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
         {
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
             desc: "Robô de automação (RPA) para monitoramento contínuo de cotações, automatizando a coleta, processamento e disponibilização de informações estratégicas",
-            tech: ["Python", "Selenium", "Google Cloud", "Google Sheets API", "Web Scraping"],
+            tech: ["Python", "Selenium", "Google Cloud", "Google Sheets API", "Web Scraping", "Streamlit", "Streamlit Community Cloud"],
             codeUrl: "https://lucasvini-eng.github.io/project-announcement-1/",
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-1/"},
         {
