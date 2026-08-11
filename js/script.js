@@ -23,16 +23,16 @@ function clearAiSession() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const projects = [
-        {
+         {
             id: 1,
-            title: "Link Shortening System (LSS)",
+            title: "Sistema NTS-e (BI)",
             category: "software",
-            status: "concluido",
-            statusText: "Concluído",
-            desc: "Sistema web de encurtamento de URLs gerando links curtos e seguros, com foco em simplicidade, segurança e rastreabilidade.",
-            tech: ["Python", "Streamlit", "Validators", "Pyshorteners", "Streamlit Community Cloud"],
-            codeUrl: "https://github.com/LucasVini-eng/Project-002-LinkShorteningSystem-LSS",
-            demoUrl: "https://project-002-linkshorteningsystem-lss.streamlit.app/"},
+            status: "desenvolvimento",
+            statusText: "Em Desenvolvimento",
+            desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
+            tech: ["Em definição"],
+            codeUrl: "https://lucasvini-eng.github.io/project-announcement-2/",
+            demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
         {
             id: 2,
             title: "Quote Monitor ($)",
@@ -45,6 +45,27 @@ document.addEventListener('DOMContentLoaded', () => {
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-1/"},
         {
             id: 3,
+            title: "Link Shortening System (LSS)",
+            category: "software",
+            status: "concluido",
+            statusText: "Concluído",
+            desc: "Sistema web de encurtamento de URLs gerando links curtos e seguros, com foco em simplicidade, segurança e rastreabilidade.",
+            tech: ["Python", "Streamlit", "Validators", "Pyshorteners", "Streamlit Community Cloud"],
+            codeUrl: "https://github.com/LucasVini-eng/Project-002-LinkShorteningSystem-LSS",
+            demoUrl: "https://project-002-linkshorteningsystem-lss.streamlit.app/"},
+        
+        {
+            id: 4,
+            title: "Gestão de Dashboards (Power BI)",
+            category: "dados",
+            status: "concluido",
+            statusText: "Concluído",
+            desc: "Orquestração de visões analíticas interativas integradas a uma interface web personalizada, acelerando decisões baseadas em indicadores operacionais.",
+            tech: ["Bootstrap", "JavaScript", "Power BI Embedded", "ETL"],
+            codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
+            demoUrl: "https://lucasvini-eng.github.io/lveProject-001-DashboardManager-PowerBI/"},
+        {
+            id: 5,
             title: "Task Management API",
             category: "software",
             status: "concluído",
@@ -53,26 +74,6 @@ document.addEventListener('DOMContentLoaded', () => {
             tech: ["Java", "Spring Boot", "API REST"],
             codeUrl: "https://github.com/LucasVini-eng/Project-005-TaskList-API",
             demoUrl: "https://www.linkedin.com/posts/lucas-vinicius-ds_projeto-gerenciamento-de-tarefas-por-api-ugcPost-7398842285439758336-AbWo/?utm_source=share&utm_medium=member_desktop&rcm=ACoAADQ9xY4Bq9hbYyIilymoH1vo69oq8gsEDaE"},
-        {
-            id: 4,
-            title: "Sistema NTS-e (BI)",
-            category: "software",
-            status: "desenvolvimento",
-            statusText: "Em Desenvolvimento",
-            desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
-            tech: ["Em definição"],
-            codeUrl: "https://lucasvini-eng.github.io/project-announcement-2/",
-            demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
-        {
-            id: 5,
-            title: "Gestão de Dashboards (Power BI)",
-            category: "dados",
-            status: "concluido",
-            statusText: "Concluído",
-            desc: "Orquestração de visões analíticas interativas integradas a uma interface web personalizada, acelerando decisões baseadas em indicadores operacionais.",
-            tech: ["Bootstrap", "JavaScript", "Power BI Embedded", "ETL"],
-            codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
-            demoUrl: "https://lucasvini-eng.github.io/lveProject-001-DashboardManager-PowerBI/"}
     ];
 
 const grid = document.getElementById('projects-grid');
