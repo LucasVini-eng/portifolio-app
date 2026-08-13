@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
          {
             id: 1,
-            title: "Sistema de Fluxo de Ausências - RH",
+            title: "Fluxo de Ausências (RH)",
             category: "software",
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
