@@ -25,12 +25,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const projects = [
          {
             id: 1,
-            title: "Sistema NTS-e (BI)",
+            title: "Sistema de Fluxo de Ausências - RH",
             category: "software",
             status: "desenvolvimento",
             statusText: "Em Desenvolvimento",
-            desc: "Plataforma que automatiza o lançamento e a gestão de notas fiscais, centralizando informações financeiras em um único ambiente. Integra dashboards de Business Intelligence (BI) para acompanhamento de indicadores, análise de custos e suporte à tomada de decisões baseada em dados.",
-            tech: ["Python", "Django", ],
+            desc: "Plataforma interna para automatizar solicitações, aprovações e controle de férias e afastamentos, com calendário, notificações e dashboards para o RH",
+            tech: ["Em definição"],
             codeUrl: "https://lucasvini-eng.github.io/project-announcement-2/",
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
         {
