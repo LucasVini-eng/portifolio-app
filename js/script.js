@@ -66,10 +66,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         {
             id: 5,
-            title: "Gestão de Dashboards (Power BI)",
+            title: "Dashboard Management (Power BI)",
             category: "dados",
-            status: "concluido",
-            statusText: "Concluído",
+            status: "desenvolvimento",
+            statusText: "Manutenção",
             desc: "Orquestração de visões analíticas interativas integradas a uma interface web personalizada, acelerando decisões baseadas em indicadores operacionais.",
             tech: ["Bootstrap", "JavaScript", "Power BI Embedded", "ETL"],
             codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
