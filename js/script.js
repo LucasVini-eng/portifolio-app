@@ -35,16 +35,26 @@ document.addEventListener('DOMContentLoaded', () => {
             demoUrl: "https://lucasvini-eng.github.io/project-announcement-2/"},
         {
             id: 2,
+            title: "Financial Control ($)",
+            category: "software",
+            status: "desenvolvimento",
+            statusText: "Em desenvolvimento",
+            desc: "Aplicação desktop desenvolvida em Java para gerenciamento de finanças, permitindo cadastrar e acompanhar receitas, despesas e categorias, além de consultar o saldo financeiro.",
+            tech: ["Java"],
+            codeUrl: "https://lucasvini-eng.github.io/project-announcement-1/",
+            demoUrl: "https://lucasvini-eng.github.io/project-announcement-1/"},
+        {
+             id: 3,
             title: "Quote Monitor ($)",
             category: "automacao",
             status: "concluído",
             statusText: "Concluído",
             desc: "Robô de automação (RPA) para monitoramento contínuo de cotações, automatizando a coleta, processamento e disponibilização de informações estratégicas",
             tech: ["Python", "Selenium", "Google Cloud", "Google Sheets API", "Web Scraping", "Streamlit", "Streamlit Community Cloud"],
-            codeUrl: "https://lucasvini-eng.github.io/project-announcement-1/",
-            demoUrl: "https://lucasvini-eng.github.io/project-announcement-1/"},
+            codeUrl: "https://github.com/LucasVini-eng/Project-003-quoteFinance-RPA",
+            demoUrl: "https://project-003-quotefinance-rpa-btxecz6b27dmwymtsnruyd.streamlit.app/"},
         {
-            id: 3,
+            id: 4,
             title: "Link Shortening System (LSS)",
             category: "software",
             status: "concluido",
@@ -55,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
             demoUrl: "https://project-002-linkshorteningsystem-lss.streamlit.app/"},
         
         {
-            id: 4,
+            id: 5,
             title: "Gestão de Dashboards (Power BI)",
             category: "dados",
             status: "concluido",
@@ -65,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             codeUrl: "https://github.com/LucasVini-eng/lveProject-001-DashboardManager-PowerBI",
             demoUrl: "https://lucasvini-eng.github.io/lveProject-001-DashboardManager-PowerBI/"},
         {
-            id: 5,
+            id: 6,
             title: "Task Management API",
             category: "software",
             status: "concluído",
